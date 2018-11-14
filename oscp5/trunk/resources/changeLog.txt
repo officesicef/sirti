@@ -1,0 +1,13 @@
+2010-08-21  Andreas Schlegel
+      * version 0.9.7
+      
+      * src oscP5/OscP5:
+      removing PApplet dependency and adding reflection based registerDispose() method 
+      to register the dispose() method if the parent is of class processing.core.PApplet
+            
+2010-05-04  Andreas Schlegel
+      * version 0.9.6
+      * OscP5: changing _myOscPlugList to _myOscPlugMap using HashMap, thanks to Daniel C. Silverstein for the patch.
+
+0.9.4
+added OscMessage.clearArguments() only clears the arguments but keeps the address pattern.
